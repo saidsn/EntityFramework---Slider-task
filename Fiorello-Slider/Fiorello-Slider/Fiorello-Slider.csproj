@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Fiorello_Slider</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\.git\fsmonitor--daemon\cookies\" />
+    <Folder Include="wwwroot\.git\objects\info\" />
+    <Folder Include="wwwroot\.git\refs\tags\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\.git\config" />
+    <None Include="wwwroot\.git\description" />
+    <None Include="wwwroot\.git\HEAD" />
+    <None Include="wwwroot\.git\hooks\applypatch-msg.sample" />
+    <None Include="wwwroot\.git\hooks\commit-msg.sample" />
+    <None Include="wwwroot\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="wwwroot\.git\hooks\post-update.sample" />
+    <None Include="wwwroot\.git\hooks\pre-applypatch.sample" />
+    <None Include="wwwroot\.git\hooks\pre-commit.sample" />
+    <None Include="wwwroot\.git\hooks\pre-merge-commit.sample" />
+    <None Include="wwwroot\.git\hooks\pre-push.sample" />
+    <None Include="wwwroot\.git\hooks\pre-rebase.sample" />
+    <None Include="wwwroot\.git\hooks\pre-receive.sample" />
+    <None Include="wwwroot\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="wwwroot\.git\hooks\push-to-checkout.sample" />
+    <None Include="wwwroot\.git\hooks\update.sample" />
+    <None Include="wwwroot\.git\index" />
+    <None Include="wwwroot\.git\info\exclude" />
+    <None Include="wwwroot\.git\logs\HEAD" />
+    <None Include="wwwroot\.git\logs\refs\heads\master" />
+    <None Include="wwwroot\.git\logs\refs\remotes\origin\HEAD" />
+    <None Include="wwwroot\.git\objects\pack\pack-ac1280c97118e1e52e58f978a15898555a3d5378.idx" />
+    <None Include="wwwroot\.git\objects\pack\pack-ac1280c97118e1e52e58f978a15898555a3d5378.pack" />
+    <None Include="wwwroot\.git\packed-refs" />
+    <None Include="wwwroot\.git\refs\heads\master" />
+    <None Include="wwwroot\.git\refs\remotes\origin\HEAD" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.29" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.29">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.29" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.29">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+</Project>
